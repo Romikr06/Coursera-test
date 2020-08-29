@@ -1,0 +1,42 @@
+.first{
+			color:purple;
+			margin:1%;
+			font-size:110%;
+			font-family:arial,times new roman;
+		    padding:1%;
+		    text-decoration: underline;
+		}
+.second{
+			color:blue;
+			margin: 1%;
+			font-size:110%;
+			font-family:courier new,arial,times new roman;
+		   
+		}
+.third{
+			font-size: 90%;
+			font-family:times new roman,courier new,arial;
+		    text-decoration: underline;
+            color: lime;
+            background-color:#002030;
+        }
+.fourth{
+		    padding:10%;
+		    font-size: 120%;
+		}
+
+.default{
+			font-size=90%;
+		}
+.all{
+		    margin: 2%;
+		    background-color:#e6e6fa;
+            }
+          li{
+          	padding: 0.3%;
+          }
+          .emoji{
+          	font-size: 200%;
+          }
+		    
+		
