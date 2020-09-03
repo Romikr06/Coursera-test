@@ -4,7 +4,8 @@
 			font-size:110%;
 			font-family:arial,times new roman;
 		    padding:1%;
-		    text-decoration: underline;
+		    text-decoration: ;
+		    font-weight: bold;
 		}
 .second{
 			color:blue;
@@ -16,7 +17,6 @@
 .third{
 			font-size: 90%;
 			font-family:times new roman,courier new,arial;
-		    text-decoration: underline;
             color: lime;
             background-color:#002030;
         }
@@ -31,6 +31,10 @@
 .all{
 		    margin: 2%;
 		    background-color:#e6e6fa;
+		    background-repeat: no-repeat;
+		    background-image: url("mywall.png ");
+		    background-size: cover;
+
             }
           li{
           	padding: 0.3%;
