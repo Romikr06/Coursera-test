@@ -32,7 +32,7 @@
 		    margin: 2%;
 		    background-color:#e6e6fa;
 		    background-repeat: no-repeat;
-		    background-image: url("mywall.png ");
+		    background-image: url("e.png");
 		    background-size: cover;
 
             }
@@ -42,5 +42,6 @@
           .emoji{
           	font-size: 200%;
           }
+          
 		    
 		
