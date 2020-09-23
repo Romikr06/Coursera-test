@@ -39,9 +39,86 @@
           li{
           	padding: 0.3%;
           }
-          .emoji{
-          	font-size: 200%;
-          }
-          
+
+#p1{
+	float: right;
+	}
+#p2{
+	float: left;
+	}
+#p3{
+	float: right;
+	}
+#p4{
+	float: left;
+	}
+
+	    div{
+	    	width:50%;
+	    	border:1px;
+	    	padding:2%;
+	    }
+	    *{
+	    	box-sizing: border-box;
+
+	    }
+	    .wall{
+	    	background-repeat: no-repeat;
+		    background-image: url("a.png");
+		    background-size: cover;
+
+	    }
+
 		    
+	/***********************Responsive Code for phone**************/
+	@media(max-width:600px)
+	{
+        .phone-1w{
+			width:20%; 
+		}
+		.phone-2w{
+			width:25%; 
+		}
+		.phone-3w{
+			width:30%; 
+		}
+
+		.phone-4w{
+			width:50%; 
+		}
+		.phone-5w{
+			width:70% 
+		}
+		.phone-6w{
+			width:75%;
+		}
+		.phone-7w{
+			width:100%;
+		}
+	}
 		
+	@media(min-width:601px) and (max-width:1200)
+	{
+        .phone-1w{
+			width:20%; 
+		}
+		.phone-2w{
+			width:25%; 
+		}
+		.phone-3w{
+			width:30%; 
+		}
+
+		.phone-4w{
+			width:50%; 
+		}
+		.phone-5w{
+			width:70% 
+		}
+		.phone-6w{
+			width:75%;
+		}
+		.phone-7w{
+			width:100%;
+		}
+	}

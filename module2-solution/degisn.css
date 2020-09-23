@@ -1,0 +1,87 @@
+div{
+	       
+			margin: 1%;
+			font-size:100%;
+			font-family:courier new,arial,times new roman;
+			background-color:#e6e6fa;
+			 
+			float: left;
+			box-sizing: border-box;
+}
+body{
+	box-sizing: border-box;
+
+
+}
+
+.heading{
+			margin: 1%;
+			font-size:120%;
+			font-family:arial,times new roman;
+			width:30%;
+			float: right; 
+			clear:left;
+			text-align: center;
+			border: 1px solid;
+			padding: 1%;
+
+
+}
+#c1{
+	background-color:orange;
+}
+#c2{
+	background-color:lime;
+}
+#c3{
+	background-color:yellow;
+}
+/**************responsive****************/
+	@media(max-width:767px)
+	{
+        .phones-1{
+			width:98%;
+			border: 1px solid;
+
+		}
+		.phones-2{
+			width:50%; 
+			border: 1px solid;
+		}
+		.phones-3{
+			width:30%; 
+			border: 1px solid;
+		}
+	}
+		@media(max-width:991px) and (min-width:768px)
+	{
+        .tablet-1{
+			width:47%; 
+			border: 1px solid;
+
+		}
+		.tablet-2{
+			width:96%; 
+			border: 1px solid;
+		}
+		.table-3{
+			width: 33%;
+			border: 1px solid;
+		}
+	}
+			@media(min-width:992px)
+		
+	{
+        .computer-1{
+			width:31%; 
+			border: 1px solid;
+		}
+		.computer-2{
+			width:100%; 
+			border: 1px solid;
+		}
+		.computer-3{
+			width:50%; 
+			border: 1px solid;
+		}
+	}
